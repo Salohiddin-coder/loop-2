@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 2 - Step 8</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <form action="https://echo-htmlacademy.ru" method="post">
+    <div class="telephone">
+      <h1 class="telephone__title">Card</h1>
+      <img class="telephone__img" src="./img/card.png" alt="a card that belongs to Max Mustermann" width="300" height="200">
+  
+      <div class="telephone__box box">
+        <div class="box__wrapper">
+          <img class="box__img" src="./img/lock.svg" alt="An image that shows black lock" width="20" height="20">
+          <div class="box__inner">
+            <h2 class="box__title">Lock card</h2>
+            <p class="box__info">You can unlock it later</p>
+          </div>
+
+            <input class="box__input visually-hidden" type="checkbox" name="user-lock" id="user-lock">
+            <label class="box__label" for="user-lock">
+              <span class="box__circle"></span>
+            </label>
+        </div>
+      </div>
+
+        <div class="telephone__box box">
+          <div class="box__wrapper">
+            <img class="box__img" src="./img/plane.svg" alt="An airplane" width="20" height="20">
+            <div class="box__inner">
+              <h2 class="box__title">Payments abroad</h2>
+              <p class="box__info">Enable your card abroad</p>
+            </div>
+  
+              <input class="box__input visually-hidden" type="checkbox" name="user-payment" id="user-payment-plane">
+              <label class="box__label" for="user-payment-plane">
+                <span class="box__circle"></span>
+              </label>
+          </div>
+        </div>
+
+          <div class="telephone__box box">
+            <div class="box__wrapper">
+              <img class="box__img" src="./img/laptop.svg" alt="A laptop" width="20" height="20">
+              <div class="box__inner">
+                <h2 class="box__title">Online payments</h2>
+                <p class="box__info">Enable online transactions</p>
+              </div>
+    
+                <input class="box__input visually-hidden" type="checkbox" name="user-payment" id="user-payment-laptop">
+                <label class="box__label" for="user-payment-laptop">
+                  <span class="box__circle"></span>
+                </label>
+            </div>
+          </div>
+
+            <div class="telephone__box box">
+              <div class="box__wrapper">
+                <img class="box__img" src="./img/atm.svg" alt="An ATM" width="20" height="20">
+                <div class="box__inner">
+                  <h2 class="box__title">ATM withdrawals</h2>
+                  <p class="box__info">Enable ATM withdrawals</p>
+                </div>
+      
+                  <input class="box__input visually-hidden" type="checkbox" name="user-payment" id="user-payment-atm">
+                  <label class="box__label" for="user-payment-atm">
+                    <span class="box__circle"></span>
+                  </label>
+              </div>
+            </div>
+    </div>
+  </form>
+</body>
+</html>
